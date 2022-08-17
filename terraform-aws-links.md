@@ -33,3 +33,15 @@
 # AWS Elastic Beanstalk Configuration Environment (Advanced)
 
 * [documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options.html)
+
+# AWS S3 Bucket
+
+* [documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
+
+# AWS S3 Bucket Object
+
+* [documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_object)
+
+# AWS Elastic Beanstalk Application Version
+
+* [documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elastic_beanstalk_application_version

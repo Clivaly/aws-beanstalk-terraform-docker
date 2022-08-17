@@ -51,3 +51,8 @@ ___
 ```
 pip freeze
 ```
+
+## Zip de aquivos
+```
+zip -r poducao.zip Dockerrun.aws.json
+```

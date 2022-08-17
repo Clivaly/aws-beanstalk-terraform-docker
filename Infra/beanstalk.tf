@@ -26,3 +26,16 @@ resource "aws_elastic_beanstalk_environment" "beanstalk_environment" {
     value = aws_iam_instance_profile.beanstalk_ec2_profile.name
   }
 }
+
+resource "aws_elastic_beanstalk_application_version" "default" {
+  depends_on = [
+    aws_elastic_beanstalk_environment.beanstalk_environment,
+    aws_elastic_beanstalk_application.beanstalk_application,
+    aws_s3_bucket_object.beanstalk_docker
+  ]
+  name        = var.env
+  application = var.nome
+  description = var.descricao
+  bucket      = aws_s3_bucket.beanstalk_deploys.id
+  key         = aws_s3_bucket_object.beanstalk_docker.id
+}
