@@ -1,0 +1,42 @@
+[
+    {
+        "model": "clientes.cliente",
+        "pk": 1,
+        "fields": {
+            "nome":"Dalila",
+            "email":"dalila@csrc.com"
+        } 
+    },
+    {
+        "model": "clientes.cliente",
+        "pk": 2,
+        "fields": {
+            "nome":"Joao",
+            "email":"joao@crsc.com"
+        } 
+    },
+    {
+        "model": "clientes.cliente",
+        "pk": 3,
+        "fields": {
+            "nome":"Jose",
+            "email":"jose@crsc.com"
+        } 
+    },
+    {
+        "model": "clientes.cliente",
+        "pk": 4,
+        "fields": {
+            "nome":"Maria",
+            "email":"maria@crsc.com"
+        } 
+    },
+    {
+        "model": "clientes.cliente",
+        "pk": 5,
+        "fields": {
+            "nome":"Carlos",
+            "email":"carlos@crsc.com"
+        } 
+    }
+]

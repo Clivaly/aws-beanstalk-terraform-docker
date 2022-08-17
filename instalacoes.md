@@ -1,4 +1,5 @@
 # Terraform
+* [Tutorial](https://learn.hashicorp.com/terraform?utm_source=terraform_io)
 
 ## Ubuntu:
 
@@ -13,6 +14,7 @@ choco install terraform
 ___
 
 # Ansible
+* [Tutorial](https://docs.ansible.com/ansible/latest/getting_started/index.html)
 
 ## Ubuntu:
 
