@@ -1,9 +1,9 @@
 module "Production" {
   source = "../../Infra"
 
-  nome = "Production"
-  descricao = "Production-Application"
+  nome = "production"
+  descricao = "production-application"
   max_size = 5
   machine = "t2.micro"
-  env = "Production-Environment"
+  env = "production-environment"
 }
